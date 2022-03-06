@@ -3,7 +3,7 @@ package main;
 import java.util.List;
 import java.util.Scanner;
 
-public class Menue {
+public class Menu {
 	public static void handleWelcomeScreenInput() {
 		boolean running = true;
 		Scanner sc = new Scanner(System.in);
@@ -17,7 +17,7 @@ public class Menue {
 					FileOperations.displayAllFiles("Folder");
 					break;
 				case 2:
-					Menue.handleFileMenuOptions();
+					Menu.handleFileMenuOptions();
 					break;
 				case 3:
 					System.out.println("Program exited successfully.");

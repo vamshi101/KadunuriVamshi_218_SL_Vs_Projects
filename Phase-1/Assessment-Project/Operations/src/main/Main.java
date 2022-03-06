@@ -6,9 +6,9 @@ public class Main {
 		
 		FileOperations.createMainFolderIfNotPresent("Folder");
 		
-		Display.printWelcomeScreen("Welcome to The Program", "Hai,I'm Vijay");
+		Display.printWelcomeScreen("Welcome to The Program", "Hai,I'm Vamshi");
 		
-		Menue.handleWelcomeScreenInput();
+		Menu.handleWelcomeScreenInput();
 	}
 
 }

@@ -93,7 +93,7 @@ public class FileOperations{
 		FileOperations.searchFileRecursively(path, fileName, fileListNames);
 
 		if (fileListNames.isEmpty()) {
-			System.out.println("\n No File Found \"" + fileName + "\" \n");
+			System.out.println("\nNo File Found \"" + fileName + "\" \n");
 			System.out.println("Please ENTER correct File Name");
 		} else {
 			System.out.println("\n\nFound file at below location(s):");
